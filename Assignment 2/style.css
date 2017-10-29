@@ -1,0 +1,37 @@
+.text1{
+  color: red;
+}
+
+.textsize{
+  font-size: 25px;
+}
+
+.fontstyle{
+  font-family: arial
+}
+
+.case{
+  text-transform: uppercase;
+}
+
+ol{
+  position: fixed;
+}
+
+.box{
+  margin: 20px 10% 20px 10%;
+  border: black 15px solid;
+  padding: 10px 10px 10px 10px;
+}
+
+ol,h3,p{
+  color: green;
+}
+
+div ~ p{
+  color: blue;
+}
+
+div p{
+  color:purple;
+}
