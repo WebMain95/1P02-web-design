@@ -1,0 +1,150 @@
+body{
+background-color: #12171c;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.fontstyle{
+  font-family: arial;
+  padding-top: 30px;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.subhead{
+  font-family: arial;
+  padding-top: 30px;
+  padding-bottom: 150px;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+
+#header{
+  width: 100%;
+  height: 70px;
+  background: -webkit-linear-gradient(bottom, rgba(255,0,0,0), rgba(3,0,0,3));
+  background: -o-linear-gradient(bottom, rgba(255,0,250,250), rgba(3,0,0,1));
+  background: -moz-linear-gradient(bottom, rgba(255,0,0,250), rgba(3,0,0,3));
+  background: linear-gradient(bottom, rgba(255,0,0,250), rgba(3,0,0,3));
+  box-shadow: 0px 2px 5px black;
+  font-weight: bold;
+  position: fixed;
+  z-index: 100px;
+}
+
+.nav li{
+  width: 180px;
+  list-style: none;
+  float:left;
+  font-size: 16px;
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  margin-left: 3%;
+}
+
+li>a{
+  display: block;
+  color: #ff7e00;
+  line-height: 70px;
+  text-align: center;
+  font-family: arial,sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+li>a:hover{
+  background: #ff7e00;
+  color: #141d3d;
+}
+
+.caption{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -0;
+}
+
+.logo{
+  width: 80px;
+  height: 70px;
+  float: left;
+  padding-right: 210px;
+}
+
+.box{
+  margin: 20px 10% 20px 10%;
+  border: black 15px solid;
+  padding: 10px 10px 10px 10px;
+}
+.abouttext{
+  position: static;
+  left: 300px;
+  width: 400px;
+  font-size: 22px;
+  margin-top: -1000px;
+  font-family: arial;
+  margin-left: 20%;
+  color: white;
+}
+table {
+    font-family: arial, sans-serif;
+    color: white;
+    border-collapse: collapse;
+    width: 60%;
+
+    margin-left: 20%;
+}
+
+td, th {
+    border: 1px solid white;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #ff7e00;
+}
+.img1{
+  position: static;
+  border: #ff7e00 3px solid;
+  width: 400px;
+  height: 500px;
+  margin-left: 850px;
+  margin-top: 0px
+}
+
+.img2{
+  position: static;
+  border: #ff7e00 3px solid;
+  width: 400px;
+  height: 470px;
+  margin-left: 850px;
+  margin-top: 20px
+}
+
+.content{
+  width: 100%;
+  height: 1800px;
+}
+
+.footertext{
+  font-size: 20px;
+  font-family: arial;
+  color:#ff7e00;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.footer{
+  width: 100%;
+  height: 150px;
+  background: #111111;
+}
